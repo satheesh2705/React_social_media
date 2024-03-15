@@ -1,0 +1,64 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginPage input{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.loginPage label{
+    text-align: start;
+    font-size: 17px;
+}
+
+.loginPage button{
+    margin: 5px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.Container img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* user */
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+#profileIcon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#profileImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
