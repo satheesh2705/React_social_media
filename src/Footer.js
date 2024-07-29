@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className='Footer'
         style={{ color:"white" }}
         >
-            <p>{`Item Length is : ${posts.length}`}</p>
+            <p>{`Post Length is : ${posts.length}`}</p>
             <p>Copyright &copy; {today.getFullYear()}</p>
         </footer>
     )
